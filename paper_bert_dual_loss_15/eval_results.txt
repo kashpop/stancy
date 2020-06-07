@@ -1,0 +1,35 @@
+alpha=0.5
+bert_model=bert-base-uncased
+cache_dir=./BERT_CACHE/
+data_dir=../data/naacl19/persepctive_stance/
+do_eval=True
+do_lower_case=True
+do_train=True
+eval_batch_size=8
+fp16=False
+gradient_accumulation_steps=1
+learning_rate=1e-05
+local_rank=-1
+loss_scale=0
+max_seq_length=128
+no_cuda=False
+num_train_epochs=15.0
+output_dir=./bert_dual_loss_15
+seed=42
+server_ip=
+server_port=
+task_name=stance
+train_batch_size=24
+warmup_proportion=0.1
+eval_accuracy = 0.7994951316263974
+eval_loss = 1.31930793948493
+global_step = 4380
+loss = 0.033834070098037794
+              precision    recall  f1-score   support
+
+    supports     0.7905    0.8464    0.8175      1471
+     refutes     0.8114    0.7465    0.7776      1302
+
+   micro avg     0.7995    0.7995    0.7995      2773
+   macro avg     0.8009    0.7965    0.7975      2773
+weighted avg     0.8003    0.7995    0.7987      2773
