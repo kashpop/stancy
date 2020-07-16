@@ -23,7 +23,7 @@ In Proceedings of the 2019 Conference on Empirical Methods in Natural Language P
 }
 ```
 ## Code Structure
-The code of this model is structured in the following manner:
+The code of this model is based on the [Hugging Face](https://github.com/huggingface) library of pretrained transofrmers. It is structured in the following manner:
 
 *  **run_classifier.py**
 This is the main code for training and evaluating the model. This is based on the pretrained BERT from huggingface.
