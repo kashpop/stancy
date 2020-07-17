@@ -25,22 +25,22 @@ In Proceedings of the 2019 Conference on Empirical Methods in Natural Language P
 ## Code Structure
 The code of this model is based on the [Hugging Face](https://github.com/huggingface) library of pretrained transofrmers. It is structured in the following manner:
 
-*  **run_classifier.py**
+*  **run_classifier.py:**
 This is the main code for training and evaluating the model. This is based on the pretrained BERT from huggingface.
 
-* **modeling.py**
+* **modeling.py:**
 This file contains our model ```BertForSequenceClassificationDualLoss``` for stance classificarion along with supporting models based on BERT.
 
-* **file_utils.py**
+* **file_utils.py:**
 This file contains some util functions for processing the files.
 
-* **BERT_CACHE**
+* **BERT_CACHE:**
 This folder contains the pre-trained BERT model.
 
-* **data**
+* **data:**
 This folder contains the train/dev/test datasets.
 
-* **requirements.txt**
+* **requirements.txt:**
 Required dependencies to run the code. 
 
 
