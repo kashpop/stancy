@@ -35,7 +35,7 @@ This file contains our model ```BertForSequenceClassificationDualLoss``` for sta
 This file contains some util functions for processing the files.
 
 * **BERT_CACHE:**
-This folder contains the pre-trained BERT model.
+This folder contains the pre-trained BERT model. Download the folder from [here](https://www.dropbox.com/s/u2yz5vja4ed1v7d/BERT_CACHE.zip?dl=0).
 
 * **data:**
 This folder contains the train/dev/test datasets.
